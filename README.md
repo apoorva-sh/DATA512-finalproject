@@ -1,24 +1,18 @@
 # DATA 512 FINAL PROJECT 
 
 ## Goal for this project:
-I'm hoping to look at musician information data to see if there is a relation between genre type/ genre count and view count, to see what kind(s) of genre(s) are more popular as of 6 months ago.
+I'm hoping to explore this rich dataset to find some form of clustering in differnet hobbies and phobias as of 2013 amongst "young" people, it would be interesting to see if a pattern arises in such an analysis.
 
 ## Link to Dataset:
 
-The dataset is an opensource kaggle dataset found at: https://www.kaggle.com/pieca111/music-artists-popularity
+The dataset is an opensource kaggle dataset found at: https://www.kaggle.com/miroslavsabo/young-people-survey#responses.csv
 
 ## License for Dataset:
 
-Interestingly although this is an open source dataset, the license is listed as "unknown" : https://www.kaggle.com/pieca111/music-artists-popularity/metadata
+The license is listed as CC0: Public Domain : https://www.kaggle.com/miroslavsabo/young-people-survey/metadata
 
 ## Possible Biases for the data:
 
-- The data has contains viewcounts from a limited source, guaging the "popularity" of an artist may not be possible considering certain people do not even have access to this particular streaming site.
-
-- The data is also only limited to bands listed on the site "musicbrainz" which may not include certain independent artists that may have a niche but strong following.
-
-- Also, streaming counts may not be a great guage of popularity, it may imply a certain song by the band is popular, but not that the band itself is popular (case in point one hit wonders like vanilla ice)
-
-- The recorded genres (artist tags) are also recorded by fans or music listeners, which may not be accurate or reflect what the band itself considers their branding to be.
-
-- The fact that there are so many tags for each artist implies that there will be massive overlap in many genres that should not generally overlap, I may deal with this bias by creating my own major genres and categorizing each artist based on the number of tags of each category the band has and figuring out the majority
+- The data has been collected from a restricted group "students who take a particualr staistics class, and their friends", this data may not translate well to all sects of "young people"
+- This dataset does not record the age of domeone who takes the survey, young people need not necessarily have young friends
+- This dataset has some preset hobbies and phobias that "young" people will rate as interesting, there could be certain hobbies or phobias that are not explored in this dataset.
