@@ -15,7 +15,6 @@ The dataset contains an initial average emotional response to a factorially alte
 
 The license is listed as CC0: Public Domain as listed in the "Terms" section of the data description
 
-## Possible Biases for the data:
+## License for project:
 
-- I could not find a specification as to who the study was conducted on, emotional responses can have other listener specific responses
-- The initial sound wave that is altered factorially could also affect the emotional response/feel of a song
+This project is Under MIT license.
